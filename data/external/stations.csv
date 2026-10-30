@@ -1,0 +1,11 @@
+# station_id,name,district,state,lat,lon,source
+BTM-CPCB-01,"BTM Layout, Bengaluru - CPCB",Bengaluru Urban,Karnataka,12.9166,77.6101,CPCB
+MAH-TS-01,"Maheswaram Ranga Reddy",Maheswaram,Telangana,17.1300,78.0300,CPCB
+LEH-LAD-01,"Leh",Leh,Ladakh,34.1500,77.5800,CPCB
+PB-AN-01,"Port Blair",Port Blair,Andaman and Nicobar,11.6200,92.9300,CPCB
+KAV-LD-01,"Kavaratti",Kavaratti,Lakshadweep,10.5600,72.6400,CPCB
+ITA-AR-01,"Itanagar",Itanagar,Arunachal Pradesh,27.1000,93.6200,CPCB
+KAN-TN-01,"Kanyakumari",Kanyakumari,Tamil Nadu,8.0800,77.5300,CPCB
+BHU-GJ-01,"Bhuj",Bhuj,Gujarat,23.2400,69.6600,CPCB
+SRI-JK-01,"Srinagar",Srinagar,Jammu and Kashmir,34.0800,74.7900,CPCB
+BLR-560068-01,"BTM Layout 560068",Bengaluru Urban,Karnataka,12.9200,77.6000,OpenAQ

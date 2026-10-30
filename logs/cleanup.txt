@@ -1,0 +1,52 @@
+setup_env.bat already ok
+del _listroot.py
+del _migrate8.py
+del _out_mig8.txt
+del _out_patch.txt
+del _out_plot.txt
+del _out_tree.txt
+del _pip1.log
+del _pip_rest.log
+del _pip_shap.log
+del _pip_torch.log
+del _prep.txt
+del _probe.txt
+del _probe2.txt
+del _probe8.py
+del _pytest1.txt
+del _pytest2.txt
+del _pytest3.txt
+del _pytest4.txt
+del _pytest5.txt
+del _pytest6.txt
+del _pytest7.txt
+del _pytest8.txt
+del _pytest9.txt
+del _pytest_enc.txt
+del _pytest_enc2.txt
+del _pytest_enc3.txt
+del _pytest_enc4.txt
+del _pytest_enc5.txt
+del _smoke.txt
+del _smoke2.txt
+del _split.txt
+del _train.txt
+del _train1.txt
+del _train2.txt
+del _tree_all.txt
+del _uv.txt
+del _yaml.txt
+del audit_tree.py
+del diag_m2.py
+del run_diag2.py
+del run_diagnosis.py
+rmdir app/
+rmdir configs/
+results/diag2_out.txt -> logs/diag2_out.txt
+del results/diag_stdout.txt
+del stale data/processed/.gitkeep
+del stale results/.gitkeep
+del stale src/models/.gitkeep
+del stale tests/.gitkeep
+del stale scripts/.gitkeep
+del stale data/raw/.gitkeep

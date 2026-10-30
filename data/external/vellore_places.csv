@@ -1,0 +1,7 @@
+place,aliases,pin_code,district,state,place_type,lat,lon,source
+Vellore,"vellore|vellore city",632012,Vellore,Tamil Nadu,city,12.9071753,79.1309695,OpenStreetMap Nominatim
+Katpadi,"katpadi",632007,Vellore,Tamil Nadu,town,12.9755644,79.1357703,OpenStreetMap Nominatim
+Gudiyatham,"gudiyatham|gudiyattam",632602,Vellore,Tamil Nadu,town,12.9485676,78.8705336,OpenStreetMap Nominatim
+Pernampattu,"pernampattu|pernambut",635810,Vellore,Tamil Nadu,town,12.9366728,78.7187469,OpenStreetMap Nominatim
+K V Kuppam,"k v kuppam|kv kuppam|k.v. kuppam",632201,Vellore,Tamil Nadu,town,12.9622,78.987091,OpenStreetMap Nominatim
+Anaikkattu,"anaikkattu|anaicut|anaikattu",632101,Vellore,Tamil Nadu,village,12.8765302,78.9871073,OpenStreetMap Nominatim

@@ -1,0 +1,52 @@
+district_id,district,state,lat,lon,source,source_date
+DL-Central,Central Delhi,Delhi,28.6283,77.1676,Project synthetic centre,2026-10-28
+KA-BengaluruUrban,Bengaluru Urban,Karnataka,12.9716,77.5946,OpenStreetMap approx,2026-10-28
+TG-RangaReddy,Maheswaram,Telangana,17.13,78.03,Project station registry,2026-10-28
+LA-Leh,Leh,Ladakh,34.15,77.58,Project station registry,2026-10-28
+AN-PortBlair,Port Blair,Andaman and Nicobar,11.62,92.93,Project station registry,2026-10-28
+LD-Kavaratti,Kavaratti,Lakshadweep,10.56,72.64,Project station registry,2026-10-28
+AR-Itanagar,Itanagar,Arunachal Pradesh,27.1,93.62,Project station registry,2026-10-28
+TN-Kanyakumari,Kanyakumari,Tamil Nadu,8.08,77.53,Project station registry,2026-10-28
+GJ-Bhuj,Bhuj,Gujarat,23.24,69.66,Project station registry,2026-10-28
+JK-Srinagar,Srinagar,Jammu and Kashmir,34.08,74.79,Project station registry,2026-10-28
+MH-Mumbai,Mumbai,Maharashtra,19.076,72.8777,OpenStreetMap approx,2026-10-28
+MH-Nagpur,Nagpur,Maharashtra,21.1458,79.0882,OpenStreetMap approx,2026-10-28
+MH-Pune,Pune,Maharashtra,18.5204,73.8567,OpenStreetMap approx,2026-10-28
+MH-Nashik,Nashik,Maharashtra,19.9975,73.7898,OpenStreetMap approx,2026-10-28
+DL-NewDelhi,New Delhi,Delhi,28.6139,77.209,OpenStreetMap approx,2026-10-28
+UP-Lucknow,Lucknow,Uttar Pradesh,26.8467,80.9462,OpenStreetMap approx,2026-10-28
+UP-Kanpur,Kanpur,Uttar Pradesh,26.4499,80.3319,OpenStreetMap approx,2026-10-28
+UP-Varanasi,Varanasi,Uttar Pradesh,25.3176,82.9739,OpenStreetMap approx,2026-10-28
+UP-Agra,Agra,Uttar Pradesh,27.1767,78.0081,OpenStreetMap approx,2026-10-28
+WB-Kolkata,Kolkata,West Bengal,22.5726,88.3639,OpenStreetMap approx,2026-10-28
+WB-Howrah,Howrah,West Bengal,22.5892,88.3103,OpenStreetMap approx,2026-10-28
+TN-Chennai,Chennai,Tamil Nadu,13.0827,80.2707,OpenStreetMap approx,2026-10-28
+TN-Coimbatore,Coimbatore,Tamil Nadu,11.0168,76.9558,OpenStreetMap approx,2026-10-28
+TN-Madurai,Madurai,Tamil Nadu,9.9252,78.1198,OpenStreetMap approx,2026-10-28
+TN-Vellore,Vellore,Tamil Nadu,12.9165,79.1325,OpenStreetMap Nominatim,2026-10-28
+KA-Mysuru,Mysuru,Karnataka,12.2958,76.6394,OpenStreetMap approx,2026-10-28
+TG-Hyderabad,Hyderabad,Telangana,17.385,78.4867,OpenStreetMap approx,2026-10-28
+AP-Visakhapatnam,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,OpenStreetMap approx,2026-10-28
+KL-Thiruvananthapuram,Thiruvananthapuram,Kerala,8.5241,76.9366,OpenStreetMap approx,2026-10-28
+KL-Kochi,Kochi,Kerala,9.9312,76.2673,OpenStreetMap approx,2026-10-28
+GJ-Ahmedabad,Ahmedabad,Gujarat,23.0225,72.5714,OpenStreetMap approx,2026-10-28
+GJ-Surat,Surat,Gujarat,21.1702,72.8311,OpenStreetMap approx,2026-10-28
+RJ-Jaipur,Jaipur,Rajasthan,26.9124,75.7873,OpenStreetMap approx,2026-10-28
+RJ-Jodhpur,Jodhpur,Rajasthan,26.2389,73.0243,OpenStreetMap approx,2026-10-28
+MP-Bhopal,Bhopal,Madhya Pradesh,23.2599,77.4126,OpenStreetMap approx,2026-10-28
+MP-Indore,Indore,Madhya Pradesh,22.7196,75.8577,OpenStreetMap approx,2026-10-28
+PB-Ludhiana,Ludhiana,Punjab,30.901,75.8573,OpenStreetMap approx,2026-10-28
+PB-Amritsar,Amritsar,Punjab,31.634,74.8723,OpenStreetMap approx,2026-10-28
+BR-Patna,Patna,Bihar,25.5941,85.1376,OpenStreetMap approx,2026-10-28
+OR-Bhubaneswar,Bhubaneswar,Odisha,20.2961,85.8245,OpenStreetMap approx,2026-10-28
+JH-Ranchi,Ranchi,Jharkhand,23.3441,85.3096,OpenStreetMap approx,2026-10-28
+CT-Raipur,Raipur,Chhattisgarh,21.2514,81.6296,OpenStreetMap approx,2026-10-28
+AS-Guwahati,Guwahati,Assam,26.1445,91.7362,OpenStreetMap approx,2026-10-28
+ML-Shillong,Shillong,Meghalaya,25.5788,91.8933,OpenStreetMap approx,2026-10-28
+MN-Imphal,Imphal,Manipur,23.8315,93.9385,OpenStreetMap approx,2026-10-28
+MZ-Aizawl,Aizawl,Mizoram,23.1645,92.9376,OpenStreetMap approx,2026-10-28
+NL-Kohima,Kohima,Nagaland,25.6751,94.1086,OpenStreetMap approx,2026-10-28
+TR-Agartala,Agartala,Tripura,23.8315,91.2868,OpenStreetMap approx,2026-10-28
+SK-Gangtok,Gangtok,Sikkim,27.3389,88.6065,OpenStreetMap approx,2026-10-28
+HP-Shimla,Shimla,Himachal Pradesh,31.1048,77.1734,OpenStreetMap approx,2026-10-28
+UT-Dehradun,Dehradun,Uttarakhand,30.3165,78.0322,OpenStreetMap approx,2026-10-28

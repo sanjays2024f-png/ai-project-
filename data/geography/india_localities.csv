@@ -1,0 +1,27 @@
+place_id,place,aliases,district,state,place_type,lat,lon,pin_code,parent_id,source,source_date
+LOC-VEL-01,Vellore,vellore|vellore city,Vellore,Tamil Nadu,city,12.9071753,79.1309695,632012,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-VEL-02,Katpadi,katpadi,Vellore,Tamil Nadu,town,12.9755644,79.1357703,632007,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-VEL-03,Gudiyatham,gudiyatham|gudiyattam,Vellore,Tamil Nadu,town,12.9485676,78.8705336,632602,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-VEL-04,Pernampattu,pernampattu|pernambut,Vellore,Tamil Nadu,town,12.9366728,78.7187469,635810,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-VEL-05,K V Kuppam,k v kuppam|kv kuppam|k.v. kuppam,Vellore,Tamil Nadu,town,12.9622,78.987091,632201,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-VEL-06,Anaikkattu,anaikkattu|anaicut|anaikattu,Vellore,Tamil Nadu,village,12.8765302,78.9871073,632101,TN-Vellore,OpenStreetMap Nominatim,2026-10-26
+LOC-MET-01,Mumbai,mumbai|bombay,Mumbai,Maharashtra,city,19.076,72.8777,400001,MH-Mumbai,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-02,Delhi,delhi|new delhi|dilli,New Delhi,Delhi,city,28.6139,77.209,110001,DL-NewDelhi,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-03,Bengaluru,bengaluru|bangalore|bengalooru,Bengaluru Urban,Karnataka,city,12.9716,77.5946,560001,KA-BengaluruUrban,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-04,Chennai,chennai|madras,Chennai,Tamil Nadu,city,13.0827,80.2707,600001,TN-Chennai,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-05,Kolkata,kolkata|calcutta,Kolkata,West Bengal,city,22.5726,88.3639,700001,WB-Kolkata,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-06,Hyderabad,hyderabad,Hyderabad,Telangana,city,17.385,78.4867,500001,TG-Hyderabad,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-07,Ahmedabad,ahmedabad|amdavad,Ahmedabad,Gujarat,city,23.0225,72.5714,380001,GJ-Ahmedabad,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-08,Pune,pune|poona,Pune,Maharashtra,city,18.5204,73.8567,411001,MH-Pune,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-09,Jaipur,jaipur|pink city,Jaipur,Rajasthan,city,26.9124,75.7873,302001,RJ-Jaipur,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-10,Lucknow,lucknow,Lucknow,Uttar Pradesh,city,26.8467,80.9462,226001,UP-Lucknow,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-11,Kochi,kochi|cochin,Kochi,Kerala,city,9.9312,76.2673,682001,KL-Kochi,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-12,Patna,patna,Patna,Bihar,city,25.5941,85.1376,800001,BR-Patna,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-13,Bhopal,bhopal,Bhopal,Madhya Pradesh,city,23.2599,77.4126,462001,MP-Bhopal,OpenStreetMap approx city centre,2026-10-28
+LOC-MET-14,Shillong,shillong,Shillong,Meghalaya,town,25.5788,91.8933,793001,ML-Shillong,OpenStreetMap approx,2026-10-28
+LOC-MET-15,Gangtok,gangtok,Gangtok,Sikkim,town,27.3389,88.6065,737101,SK-Gangtok,OpenStreetMap approx,2026-10-28
+LOC-MET-16,Port Blair,port blair|sri vijaya puram,Port Blair,Andaman and Nicobar,town,11.6234,92.7265,744101,AN-PortBlair,OpenStreetMap approx,2026-10-28
+LOC-MET-17,Kavaratti,kavaratti,Kavaratti,Lakshadweep,town,10.5626,72.6369,682555,LD-Kavaratti,OpenStreetMap approx,2026-10-28
+LOC-MET-18,Leh,leh,Leh,Ladakh,town,34.1526,77.5771,194101,LA-Leh,OpenStreetMap approx,2026-10-28
+LOC-MET-19,Srinagar,srinagar|shrinagar,Srinagar,Jammu and Kashmir,city,34.0837,74.7973,190001,JK-Srinagar,OpenStreetMap approx,2026-10-28
+LOC-MET-20,Itanagar,itanagar,Itanagar,Arunachal Pradesh,town,27.1,93.62,791111,AR-Itanagar,OpenStreetMap approx,2026-10-28

@@ -1,0 +1,37 @@
+place_id,place,aliases,district,state,place_type,lat,lon,pin_code,parent_id,source,source_date
+ST-AP,Andhra Pradesh,andhra pradesh|ap,Amaravati,Andhra Pradesh,state,16.5131,80.5165,,IN-AP,OpenStreetMap Nominatim approx state centre,2026-10-28
+ST-AR,Arunachal Pradesh,arunachal pradesh,Itanagar,Arunachal Pradesh,state,27.1000,93.6200,,IN-AR,OpenStreetMap Nominatim,2026-10-28
+ST-AS,Assam,assam,Dispur,Assam,state,26.1433,91.7898,,IN-AS,OpenStreetMap Nominatim,2026-10-28
+ST-BR,Bihar,bihar,Patna,Bihar,state,25.5941,85.1376,,IN-BR,OpenStreetMap Nominatim,2026-10-28
+ST-CT,Chhattisgarh,chhattisgarh|chattisgarh,Raipur,Chhattisgarh,state,21.2514,81.6296,,IN-CT,OpenStreetMap Nominatim,2026-10-28
+ST-GA,Goa,goa,Panaji,Goa,state,15.4909,73.8278,,IN-GA,OpenStreetMap Nominatim,2026-10-28
+ST-GJ,Gujarat,gujarat,Gandhinagar,Gujarat,state,23.2231,72.6500,,IN-GJ,OpenStreetMap Nominatim,2026-10-28
+ST-HR,Haryana,haryana,Chandigarh,Haryana,state,28.4595,77.0266,,IN-HR,OpenStreetMap Nominatim,2026-10-28
+ST-HP,Himachal Pradesh,himachal pradesh|himachal,Shimla,Himachal Pradesh,state,31.1048,77.1734,,IN-HP,OpenStreetMap Nominatim,2026-10-28
+ST-JH,Jharkhand,jharkhand,Ranchi,Jharkhand,state,23.3441,85.3096,,IN-JH,OpenStreetMap Nominatim,2026-10-28
+ST-KA,Karnataka,karnataka,Bengaluru,Karnataka,state,12.9716,77.5946,,IN-KA,OpenStreetMap Nominatim,2026-10-28
+ST-KL,Kerala,kerala,Thiruvananthapuram,Kerala,state,8.5241,76.9366,,IN-KL,OpenStreetMap Nominatim,2026-10-28
+ST-MP,Madhya Pradesh,madhya pradesh|mp,Bhopal,Madhya Pradesh,state,23.2599,77.4126,,IN-MP,OpenStreetMap Nominatim,2026-10-28
+ST-MH,Maharashtra,maharashtra,Mumbai,Maharashtra,state,19.0760,72.8777,,IN-MH,OpenStreetMap Nominatim,2026-10-28
+ST-MN,Manipur,manipur,Imphal,Manipur,state,23.8315,93.9385,,IN-MN,OpenStreetMap Nominatim,2026-10-28
+ST-ML,Meghalaya,meghalaya,Shillong,Meghalaya,state,25.5689,91.8831,,IN-ML,OpenStreetMap Nominatim,2026-10-28
+ST-MZ,Mizoram,mizoram,Aizawl,Mizoram,state,23.1645,92.9376,,IN-MZ,OpenStreetMap Nominatim,2026-10-28
+ST-NL,Nagaland,nagaland,Kohima,Nagaland,state,25.6751,94.1086,,IN-NL,OpenStreetMap Nominatim,2026-10-28
+ST-OR,Odisha,odisha|orissa,Bhubaneswar,Odisha,state,20.2961,85.8245,,IN-OR,OpenStreetMap Nominatim,2026-10-28
+ST-PB,Punjab,punjab,Ludhiana,Punjab,state,30.9010,75.8573,,IN-PB,OpenStreetMap Nominatim,2026-10-28
+ST-RJ,Rajasthan,rajasthan,Jaipur,Rajasthan,state,26.9124,75.7873,,IN-RJ,OpenStreetMap Nominatim,2026-10-28
+ST-SK,Sikkim,sikkim,Gangtok,Sikkim,state,27.3389,88.6065,,IN-SK,OpenStreetMap Nominatim,2026-10-28
+ST-TN,Tamil Nadu,tamil nadu|tamilnadu,Chennai,Tamil Nadu,state,13.0827,80.2707,,IN-TN,OpenStreetMap Nominatim,2026-10-28
+ST-TG,Telangana,telangana,Hyderabad,Telangana,state,17.3850,78.4867,,IN-TG,OpenStreetMap Nominatim,2026-10-28
+ST-TR,Tripura,tripura,Agartala,Tripura,state,23.8315,91.2868,,IN-TR,OpenStreetMap Nominatim,2026-10-28
+ST-UP,Uttar Pradesh,uttar pradesh|up,Lucknow,Uttar Pradesh,state,26.8467,80.9462,,IN-UP,OpenStreetMap Nominatim,2026-10-28
+ST-UT,Uttarakhand,uttarakhand|uttaranchal,Dehradun,Uttarakhand,state,30.3165,78.0322,,IN-UT,OpenStreetMap Nominatim,2026-10-28
+ST-WB,West Bengal,west bengal|bengal,Kolkata,West Bengal,state,22.5726,88.3639,,IN-WB,OpenStreetMap Nominatim,2026-10-28
+UT-AN,Andaman and Nicobar,andaman and nicobar|andaman|nicobar,Port Blair,Andaman and Nicobar,state,11.6234,92.7265,,IN-AN,OpenStreetMap Nominatim,2026-10-28
+UT-CH,Chandigarh,chandigarh,Chandigarh,Chandigarh,state,30.7333,76.7794,160001,IN-CH,OpenStreetMap Nominatim,2026-10-28
+UT-DN,Dadra and Nagar Haveli and Daman and Diu,dadra and nagar haveli and daman and diu|daman and diu|dadra|daman|diu,Daman,Dadra and Nagar Haveli and Daman and Diu,state,20.4283,72.8397,,IN-DN,OpenStreetMap Nominatim,2026-10-28
+UT-DL,Delhi,delhi|nct delhi|new delhi|dilli,New Delhi,Delhi,state,28.6139,77.2090,110001,IN-DL,OpenStreetMap Nominatim,2026-10-28
+UT-JK,Jammu and Kashmir,jammu and kashmir|jammu|Srinagar,Srinagar,Jammu and Kashmir,state,34.0837,74.7973,,IN-JK,OpenStreetMap Nominatim,2026-10-28
+UT-LA,Ladakh,ladakh,Leh,Ladakh,state,34.1526,77.5771,,IN-LA,OpenStreetMap Nominatim,2026-10-28
+UT-LD,Lakshadweep,lakshadweep,Kavaratti,Lakshadweep,state,10.5626,72.6369,,IN-LD,OpenStreetMap Nominatim,2026-10-28
+UT-PY,Puducherry,puducherry|pondicherry|pondy,Puducherry,Puducherry,state,11.9416,79.8083,605001,IN-PY,OpenStreetMap Nominatim,2026-10-28

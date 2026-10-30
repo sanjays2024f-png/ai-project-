@@ -1,0 +1,67 @@
+seed: 42
+project: Env-MeshNet
+bbox: {west: 68.0, south: 6.0, east: 97.5, north: 37.5}  # whole India
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  dataset_csv: data/raw/synthetic/india_dataset.csv
+  stations_csv: data/external/stations.csv
+  zarr_grid: data/processed/india_pm25_grid.zarr
+  results_dir: results
+  checkpoints_dir: models/checkpoints
+
+# CPCB PM2.5 breakpoints (ug/m3): Good<=30, Satisfactory<=60, Moderate<=90, Poor<=120, Very Poor<=250, Severe>250
+aqi_breakpoints: [30, 60, 90, 120, 250]
+aqi_classes: [Good, Satisfactory, Moderate, Poor, Very Poor, Severe]
+disease_classes: [Low, Medium, High]
+
+zones: [IGP, West, Central, East, Northeast, South, Himalaya, Islands]
+seasons:
+  winter_smog_months: [11, 12, 1, 2]
+  monsoon_months: [6, 7, 8, 9]
+diwali_dates: ["2024-11-01"]  # exemplar; update per year
+
+split:
+  mode: train_val_test  # or train_test
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+  time_based: true   # latest months = test, never random
+  holdout_districts: [Leh, Kavaratti, Itanagar]  # unseen-district hold-out
+  n_folds: 10
+  group_col: district
+
+smote:
+  enabled: true
+  k_neighbors: 5
+  sampling_strategy: auto  # minority oversampling only
+  apply_on_train_only: true
+
+features:
+  target_pm25: pm25
+  target_aqi: aqi_class
+  target_disease: disease_risk
+  exclude_from_X: [date, cell_id, district, state, pm25, aqi_class, disease_risk, pm10, aqi_index]
+  lags: [1, 3, 7]
+  rolling_windows: [3, 7]
+
+model:
+  name: Env-MeshNet
+  hidden_dim: 64
+  n_mesh_blocks: 2
+  dropout: 0.3
+  weight_decay: 1.0e-04
+  lr: 0.001
+  batch_size: 256
+  epochs: 50
+  early_stopping_patience: 7
+  loss_weights: {w_aqi: 1.0, w_pm25: 0.5, w_disease: 0.5}
+  mc_dropout_samples: 20
+
+webapp:
+  station_radius_measured_km: 10.0
+  station_radius_interpolated_km: 50.0
+  grid_resolution_deg: 0.1
+  geocode_cache: data/processed/geocode_cache.sqlite3
+  user_agent: "Env-MeshNet/0.1 (research; contact: admin@example.org)"

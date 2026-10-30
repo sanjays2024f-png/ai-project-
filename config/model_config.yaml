@@ -1,0 +1,25 @@
+# Model + training hyperparameters (tuning view).
+# Runtime code reads config/settings.yaml (authoritative, includes this section).
+# Keep both in sync when tuning.
+model:
+  name: Env-MeshNet
+  hidden_dim: 64
+  n_mesh_blocks: 2
+  dropout: 0.3
+  weight_decay: 1.0e-04
+  lr: 0.001
+  batch_size: 256
+  epochs: 50
+  early_stopping_patience: 7
+  loss_weights: {w_aqi: 1.0, w_pm25: 0.5, w_disease: 0.5}
+  mc_dropout_samples: 20
+training:
+  seed: 42
+  smote: {enabled: true, k_neighbors: 5, sampling_strategy: auto, apply_on_train_only: true}
+  split: {mode: train_val_test, train_frac: 0.70, val_frac: 0.15, test_frac: 0.15,
+          time_based: true, holdout_districts: [Leh, Kavaratti, Itanagar], n_folds: 10, group_col: district}
+evaluation:
+  overfit_gap: 0.10
+  underfit_threshold: 0.50
+  metrics: [acc, macro-prec, macro-rec, macro-F1, kappa]
+  outputs: {metrics_dir: results/metrics, figures_dir: results/figures, reports_dir: results/reports}

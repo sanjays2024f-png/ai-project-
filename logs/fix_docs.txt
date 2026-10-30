@@ -1,0 +1,5 @@
+MISS src/data/split.py: 'Run: python src/split.py --in data/processed/india_proc.csv '
+MISS src/evaluation/diagnose_model.py: '  python src/diagnose.py --train data/processed/train.csv --'
+MISS src/evaluation/diagnose_model.py: 'print("Retrain: python src/train.py --train data/processed/t'
+MISS src/training/train.py: '"""All folds x 10 models -> results/cv_metrics.csv. REAL tra'
+compile src=True scripts=True tests=True

@@ -1,0 +1,31 @@
+root-files=6
+ - .env.example
+ - .gitignore
+ - README.md
+ - _cleanup2.py
+ - _sweep.py
+ - requirements.txt
+stale-hits=23
+scripts/finalize_diagnosis.py:6: \"results\" :: MET = ROOT / "results" / "metrics"
+scripts/finalize_diagnosis.py:7: \"results\" :: REP = ROOT / "results" / "reports"
+scripts/finalize_diagnosis.py:22: results/(model_diagnosis|diagnosis|cv_metrics|cv_summary|test_metrics|dataset_balance|leakage_report|test_table|smote_log|run_smoke|learning_curve|confusion_matrix|india_aqi_map)\. :: "note": "Honest numbers from results/diagnosis.json (3-fold cross_val_predict; RF probe synthetic smoke). This file's train=1.0 is
+scripts/finalize_diagnosis.py:23: results/(model_diagnosis|diagnosis|cv_metrics|cv_summary|test_metrics|dataset_balance|leakage_report|test_table|smote_log|run_smoke|learning_curve|confusion_matrix|india_aqi_map)\. :: d["cv_note"] = "Repo results/cv_metrics.csv is STALE/INVALID (all 0.0, 2 folds, mesh-stub). Prior live log shows real 10-fold cras
+scripts/run_pipeline.py:5: results/(model_diagnosis|diagnosis|cv_metrics|cv_summary|test_metrics|dataset_balance|leakage_report|test_table|smote_log|run_smoke|learning_curve|confusion_matrix|india_aqi_map)\. :: Writes a run report to results/run_smoke.json with provenance + versions.
+scripts/run_pipeline.py:41: \"results\" :: write_report(p, str(root / "results" / "reports" / "leakage_report.txt"),
+scripts/run_pipeline.py:44: \"results\" :: o = root / "results" / "reports" / "run_smoke.json"
+scripts/run_pipeline.py:51: \"results\" :: (root / "results" / "reports" / "run_smoke.json").write_text(json.dumps({**rep, "FAILED": str(ex)}, indent=1))
+scripts/update_stations.py:48: \"results\" :: js = r.json().get("results", [])
+src/data/split.py:4: src/(balance|train|diagnose|evaluate|leakage|preprocess|split|build_csv|download|mesh|explain)\.py :: Run: python src/split.py --in data/processed/india_proc.csv --outdir data/processed
+src/evaluation/diagnose_balance.py:5: \"results\" :: RES = ROOT / "results" / "reports"
+src/evaluation/diagnose_metrics.py:7: \"results\" :: RES = ROOT / "results" / "metrics"
+src/evaluation/diagnose_metrics.py:8: \"results\" :: FIG = ROOT / "results" / "figures"
+src/evaluation/diagnose_model.py:4: src/(balance|train|diagnose|evaluate|leakage|preprocess|split|build_csv|download|mesh|explain)\.py :: python src/diagnose.py --train data/processed/train.csv --val data/processed/val.csv
+src/evaluation/diagnose_model.py:140: src/(balance|train|diagnose|evaluate|leakage|preprocess|split|build_csv|download|mesh|explain)\.py :: print("Retrain: python src/train.py --train data/processed/train.csv --folds data/processed/cv_folds.csv --config results/config_c
+src/evaluation/diagnose_model.py:148: \"results\" :: ap.add_argument("--outdir", default="results")
+src/evaluation/learning_curves.py:3: \"results\" :: RES = Path(__file__).resolve().parents[2] / "results" / "figures"
+src/prediction/predict.py:21: \"results\" :: out = root / "results" / "predictions"
+src/training/train.py:140: results/(model_diagnosis|diagnosis|cv_metrics|cv_summary|test_metrics|dataset_balance|leakage_report|test_table|smote_log|run_smoke|learning_curve|confusion_matrix|india_aqi_map)\. :: """All folds x 10 models -> results/cv_metrics.csv. REAL training, no stubs."""
+src/utils/paths.py:12: \"results\" :: def METRICS_DIR() -> Path: return ROOT() / "results" / "metrics"
+src/utils/paths.py:13: \"results\" :: def REPORTS_DIR() -> Path: return ROOT() / "results" / "reports"
+src/utils/paths.py:14: \"results\" :: def FIGURES_DIR() -> Path: return ROOT() / "results" / "figures"
+src/utils/require.py:4: from (balance|train|diagnose|evaluate|leakage|preprocess|split|build_csv|download|mesh|explain|require|main|update_stations) import :: from require import need

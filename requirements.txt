@@ -1,0 +1,32 @@
+# Env-MeshNet dependencies — Python 3.11 Windows CPU
+# Install CPU torch with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Then: pip install -r requirements.txt
+# NOTE: torch resolves to latest compatible CPU wheel (2.4.1+cpu verified 2026-10).
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+imbalanced-learn==0.12.4
+joblib==1.4.2
+xgboost==2.1.1
+torch
+pyyaml==6.0.2
+matplotlib==3.9.2
+shap==0.46.0
+seaborn==0.13.2
+pytest==8.3.2
+httpx==0.27.2
+fastapi==0.111.1
+uvicorn[standard]==0.30.4
+rapidfuzz==3.9.7
+requests==2.32.3
+tqdm==4.66.5
+python-dotenv==1.0.1
+# Optional geospatial / NASA IO (install only if needed):
+# earthaccess==0.13.0
+# xarray==2024.7.0
+# netCDF4==1.7.1.post1
+# h5py==3.11.0
+# zarr==2.18.4
+
